@@ -1,0 +1,12 @@
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int u=0;
+    char s[50];
+    scanf("%[^\n]%*c",s);
+    int l=strlen(s);
+    if(l>=26)
+    printf("YES");
+    else 
+    printf("NO");
+    return 0;
+}
